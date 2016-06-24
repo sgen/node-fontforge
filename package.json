@@ -1,0 +1,27 @@
+{
+  "name": "fontforge",
+  "version": "0.0.1",
+  "description": "A Node.js wrapper for fontforge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sgen/node-fontforge.git"
+  },
+  "keywords": [
+    "fontforge",
+    "font",
+    "forge",
+    "fonts",
+    "eot",
+    "ttf"
+  ],
+  "author": "Samuel Genest <is.genest@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgen/node-fontforge/issues"
+  },
+  "homepage": "https://github.com/sgen/node-fontforge#readme"
+}
