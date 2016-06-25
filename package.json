@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint '**/*.js'",
-    "pretest": "npm run lint",
-    "test": "babel-node spec/run.js",
-    "prebuild": "npm run test",
+    "prebuild": "npm run lint",
     "build": "babel src --out-dir lib",
-    "prepublish": "npm run build"
+    "pretest": "npm run build",
+    "test": "babel-node spec/run.js",
+    "prepublish": "npm run test"
   },
   "repository": {
     "type": "git",
