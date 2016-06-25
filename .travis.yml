@@ -12,7 +12,4 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update          ; fi
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install fontforge; fi
 
-before_script:
-  - ls node_modules | grep 'mkdirp';
-
 script: npm run build
