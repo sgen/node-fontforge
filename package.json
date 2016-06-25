@@ -1,0 +1,40 @@
+{
+  "name": "fontforge",
+  "version": "0.0.1",
+  "description": "A Node.js wrapper for fontforge",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "pretest": "npm run lint",
+    "test": "babel-node spec/run.js",
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sgen/node-fontforge.git"
+  },
+  "keywords": [
+    "fontforge",
+    "font",
+    "forge",
+    "fonts",
+    "eot",
+    "ttf"
+  ],
+  "author": "Samuel Genest <is.genest@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgen/node-fontforge/issues"
+  },
+  "homepage": "https://github.com/sgen/node-fontforge#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.9.2",
+    "jasmine": "^2.4.1",
+    "rimraf": "^2.5.2"
+  }
+}
