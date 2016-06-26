@@ -3,7 +3,7 @@ node-fontforge
 
 A Node.js wrapper for [FontForge](https://fontforge.github.io)
 
-[![Build Status][travis-image]][travis-url] [![Build Status][appveyor-image]][appveyor-url] 
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Build Status][appveyor-image]][appveyor-url] 
 
 Installation
 --------------------------------------------------------------------------------
@@ -33,6 +33,9 @@ License
 --------------------------------------------------------------------------------
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
+
+[npm-url]: https://npmjs.org/package/gulp-fontgen
+[npm-image]: https://badge.fury.io/js/gulp-fontgen.png
 
 [travis-url]: http://travis-ci.org/sgen/node-fontforge
 [travis-image]: https://secure.travis-ci.org/sgen/node-fontforge.svg?branch=master
