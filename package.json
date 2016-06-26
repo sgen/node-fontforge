@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint '**/*.js'",
-    "pretest": "npm run lint",
-    "test": "babel-node spec/run.js",
+    "prebuild": "npm run lint",
     "build": "babel src --out-dir lib",
-    "prepublish": "npm run build"
+    "pretest": "npm run build",
+    "test": "babel-node spec/run.js",
+    "prepublish": "npm run test"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
     "eslint-config-airbnb-base": "^3.0.1",
     "eslint-plugin-import": "^1.9.2",
     "jasmine": "^2.4.1",
+    "mkdirp": "^0.5.1",
     "rimraf": "^2.5.2"
   }
 }
