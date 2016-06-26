@@ -3,6 +3,8 @@ node-fontforge
 
 A Node.js wrapper for [FontForge](https://fontforge.github.io)
 
+[![Build Status][travis-image]][travis-url]
+
 Installation
 --------------------------------------------------------------------------------
 
@@ -31,3 +33,6 @@ License
 --------------------------------------------------------------------------------
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
+
+[travis-url]: http://travis-ci.org/sgen/node-fontforge
+[travis-image]: https://secure.travis-ci.org/sgen/node-fontforge.svg?branch=master
