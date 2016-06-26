@@ -36,6 +36,7 @@
     "eslint-config-airbnb-base": "^3.0.1",
     "eslint-plugin-import": "^1.9.2",
     "jasmine": "^2.4.1",
+    "mkdirp": "^0.5.1",
     "rimraf": "^2.5.2"
   }
 }
