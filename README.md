@@ -40,5 +40,5 @@ License
 [travis-url]: http://travis-ci.org/sgen/node-fontforge
 [travis-image]: https://secure.travis-ci.org/sgen/node-fontforge.svg?branch=master
 
-[appveyor-url]: http://ci.appveyor.com/project/sgen/node-fontforge
-[appveyor-image]: http://ci.appveyor.com/project/status/sgen/node-fontforge/branch/master?svg=true
+[appveyor-url]: https://ci.appveyor.com/project/sgen/node-fontforge
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/1maaqe7c49opatuo/branch/master?svg=true
