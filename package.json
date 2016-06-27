@@ -1,6 +1,6 @@
 {
   "name": "fontforge",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Node.js wrapper for fontforge",
   "main": "index.js",
   "scripts": {
